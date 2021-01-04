@@ -2,9 +2,7 @@ package br.com.teste.forms;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.EditText;
 
 import br.com.teste.forms.utils.Formatter;
@@ -22,6 +20,6 @@ public class MainActivityJava extends AppCompatActivity {
 
         ((EditText) findViewById(R.id.name)).setText(getIntent().getStringExtra("Nome"));
         ((EditText) findViewById(R.id.cpf)).addTextChangedListener(new Formatter(findViewById(R.id.cpf)));
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_space, new FragmentoBonitinho()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_space, new DefaultFragment()).commit();
     }
 }

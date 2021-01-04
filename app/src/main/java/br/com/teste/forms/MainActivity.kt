@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         cpf.addTextChangedListener(Formatter(cpf))
-        supportFragmentManager.beginTransaction().replace(R.id.fragment_space, FragmentoBonitinho()).commit()
+        supportFragmentManager.beginTransaction().replace(R.id.fragment_space, DefaultFragment()).commit()
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
