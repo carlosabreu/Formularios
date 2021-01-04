@@ -3,7 +3,7 @@
 Projeto exemplo de um hands on utilizado no workshop de introdução ao android.
 
 ## Instruções: ##
-Clonar o projeto na master. Realizar as seguintes atividades.
+Clonar o projeto na branch main e realizar as seguintes atividades:
 
 1) Colocar um botão na acitivity kotlin com o texto "Mudar para Java"
 2) Chamar a Activity Java a partir do clique neste botão
@@ -13,3 +13,6 @@ Clonar o projeto na master. Realizar as seguintes atividades.
 6) Criar um fragmento em Kotlin e adicioná-lo na activity Java e na activity kotlin
 7) Note que a máscara foi feita em Java e funciona em Java e Kotlin e o fragmento feito em kotlin e também funciona em Java e Kotlin
 8) Iniciar uma acitivity for result
+
+## Solução ##
+Uma possível solução para as atividades propostas encontra-se na branch solution
